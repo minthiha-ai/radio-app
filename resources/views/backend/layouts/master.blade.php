@@ -4,11 +4,11 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Dashboard | Velzon - Admin & Dashboard Template</title>
+    <title>Radio App Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
-     @include('layouts.style')
+     @include('backend.layouts.style')
 
 
 </head>
@@ -18,9 +18,9 @@
     <!-- Begin page -->
     <div id="layout-wrapper">
 
-        @include('layouts.header')
+        @include('backend.layouts.header')
         <!-- ========== App Menu ========== -->
-        @include('layouts.nav')
+        @include('backend.layouts.nav')
         <!-- Left Sidebar End -->
         <!-- Vertical Overlay-->
         <div class="vertical-overlay"></div>
@@ -33,7 +33,7 @@
             @yield('content')
             <!-- End Page-content -->
 
-            @include('layouts.footer')
+            @include('backend.layouts.footer')
         </div>
         <!-- end main content-->
     </div>
@@ -55,9 +55,9 @@
     </div> --}}
 
     <!-- Theme Settings -->
-    {{-- @include('layouts.theme-setting') --}}
+    {{-- @include('backend.layouts.theme-setting') --}}
 
-   @include('layouts.script')
+   @include('backend.layouts.script')
 </body>
 
 </html>

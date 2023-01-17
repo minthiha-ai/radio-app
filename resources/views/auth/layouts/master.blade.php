@@ -4,7 +4,7 @@
     <head>
 
         <meta charset="utf-8" />
-        <title>IT King NET FTTH - Wifi Billing Dashboard</title>
+        <title>Radio App</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- App favicon -->
         <link rel="shortcut icon" href="{{asset('assets/logos/it-king-logo.png')}}">
@@ -47,7 +47,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="text-center">
-                                <p class="mb-0 text-muted">&copy; <script>document.write(new Date().getFullYear())</script> Velzon. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                                {{-- <p class="mb-0 text-muted">&copy; <script>document.write(new Date().getFullYear())</script> Velzon. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p> --}}
                             </div>
                         </div>
                     </div>

@@ -7,9 +7,9 @@
             <div class="col-lg-12">
                 <div class="text-center mt-sm-5 mb-4 text-white-50">
                     <div>
-                        <a href="{{ url('/') }}" class="d-inline-block auth-logo">
+                        {{-- <a href="{{ url('/') }}" class="d-inline-block auth-logo">
                             <img src="{{ asset('assets/logos/it-king-logo.png') }}" alt="" height="100">
-                        </a>
+                        </a> --}}
                     </div>
                 </div>
             </div>
